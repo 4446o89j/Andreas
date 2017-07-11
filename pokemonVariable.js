@@ -1,0 +1,10 @@
+var heatranHP = 91;
+var heatranNum = 485;
+var heatranType = "Fire and Steel";
+var heatranBestMove = "Toxic";
+var heatranLastEvo = false;
+var heatranAttack = 90;
+var heatranDefense = 106;
+var heatranSpeed = 77; 
+var heatranSpAttack = 130;
+var heatranSpDefense = 106;
