@@ -8,6 +8,9 @@ netWorth, isGood, pastTeams){
     this.netWorth = netWorth;
     this.isGood = isGood;
     this.pastTeams = pastTeams;
+    this.speak = function (){
+        console.log("why won't this woke");
+    }
 }
 var Shaq = new basketballPlayer("Shaquille O'neal", "Celtics",
 "7'1\"", "Center", 32, 100000000000, true, ["Magic", "Lakers",
@@ -19,4 +22,4 @@ bron.pastTeams.push(bron.team);
 bron.team = "Warriors";
 
 //console.log(Shaq);
-console.log(bron);
+console.log(bron.speak());
