@@ -1,3 +1,6 @@
-var myArray = [1,2,"3","4",5,6,7,true];
-myArray.push(9);
-myArray.pop(9);
+function vaporcode(string) {
+  string.toUpperCase();
+  string.split(' ').join(' '); 
+  console.log(string);
+}
+//vaporcode("Why isn't my code working?");
