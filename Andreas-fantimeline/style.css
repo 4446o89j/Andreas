@@ -1,0 +1,23 @@
+/*div {
+    background-color: yellow;
+    width: 350px;
+    border: 50px solid green;
+    padding: 59px;
+    margin: 0px;
+}*/
+#top{
+    text-align: center;
+    font-family: Verdana;
+    color: blue;
+    font-size: 20px;
+}
+#left{
+    margin: 10px;
+    padding:59px;
+    border: 50px solid green;
+    background-color: yellow;
+    width: 350px;
+}
+img{
+    vertical-align: middle;
+}
