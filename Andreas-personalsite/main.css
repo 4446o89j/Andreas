@@ -1,0 +1,44 @@
+div{
+    text-align: center;
+}
+#fencing{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    max-width:50%;
+    float: right;
+}
+#swimming{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+#soccer{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    max-width:50%;
+    float:left;
+}
+#football{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+
+}
+p{
+    color: brown;
+}
+h1{
+    color: brown;
+}
+h2{
+    color: brown;
+}
+h3{
+    color:brown;
+}
+textarea{
+    width: 443px;
+    height: 86px;
+}
