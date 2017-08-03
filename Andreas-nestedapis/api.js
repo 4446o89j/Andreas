@@ -1,12 +1,13 @@
-var nameURL="http://randomuser.me/api/";
 var countryURL="https://restcountries.eu/rest/v2/alpha?codes=nl";
+var userURL="http://randomuser.me/api/";
 
 $.ajax({
    url:countryURL,
    success:function(data){
-        var name=data.results[0];
-        var countryName=name.name.first;
-       $("body").append("<h1>The name of the country is " + countryName + "</h1>");
+        var Name=data.results;
+        console.log(Name);
+        var countryIntial=name.net;
+       $("body").append("<h1>The intials of the country is " + countryIntial + "</h1>");
    }
 });
 
