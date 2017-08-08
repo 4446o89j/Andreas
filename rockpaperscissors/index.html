@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <scirpt src="http://code.jquery.com/jquery-3.2.1.js"
+    <link href= "rps.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.2.1.js"
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
     <script src="rps.js"></script>
-    <link href="rps.css">
+    
 </head>
 <body>
     <!--Just in Case You Don't Finish-->
-    <button onclick="Rock()">Rock</button>
+    <p>Your Intials:</p><input id="name" type="text">
+    <!--<button onclick="Rock()">Rock</button>
     <button onclick="Paper()">Paper</button>
     <button onclick="Scissors()">Scissors</button>
     <p id="demo"></p>
     <script> function Rock(){
-        document.getElementById("demo").innerHTML="Computer has chosen : Scissors. You Win!";
+        document.getElementById("demo").innerHTML="Computer has chosen: Scissors. You Win!";
     } </script>
     <script> function Paper(){
-        document.getElementById("demo").innerHTML="Computer has chosen : Paper. It's a draw!";
+        document.getElementById("demo").innerHTML="Computer has chosen: Paper. It's a draw!";
     } </script>
     <script> function Scissors(){
-        document.getElementById("demo").innerHTML="Computer has chosen : Rock. The Computer Wins!";
-    } </script>
+        document.getElementById("demo").innerHTML="Computer has chosen: Rock. The Computer Wins!";
+    } </script>-->
+    
     <div class="UserIntials">
         <form>
             <div>
-                <p>Your Intials:</p><input id="name" type="text">
+                
             </div>
             <div class="GObutton">
-                <input type="reset" onclick="updateDB();" value="Rock">
-                <input type="reset" onclick="updateDB();" value="Scissors">
-                <input type="reset" onclick="updateDB();" value="Paper">
+                    <input class="rock" type="reset" onclick="updateDB();" value="Rock">
+                <div class="scissors">
+                    <input type="reset" onclick="updateDB();" value="Scissors">
+                </div>
+                <div class="paper">
+                    <input type="reset" onclick="updateDB();" value="Paper">
+                </div>
             </div>
         </form>
     </div>
