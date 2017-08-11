@@ -1,0 +1,11 @@
+.chat{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    max-width:25%;
+    float: right;
+}
+#canvas{
+    margin: auto;
+    bottom: 10;
+}

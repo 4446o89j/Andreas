@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <meta name="google-signin-client_id" content="729204877556-lrcstpelqj3njoodsp4v48rbq59ojrol.apps.googleusercontent.com">
+    <link href= "ball.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.js"></script>
+    <script src="http://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="ball.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 <body>
-
+    
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <a href="#" onclick="signOut();">Sign out</a>
+    <script>
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+            console.log('User signed out.');
+            });
+        }
+</script>
+    <div class="chat">
+        <textarea rows="10" cols="20" placeholder="Chat"></textarea> <input type="Submit">
+    </div>
 </body>
 </html>
